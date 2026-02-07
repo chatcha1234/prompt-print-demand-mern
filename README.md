@@ -1,33 +1,75 @@
-# Prompt Print Demand (HTML/TS/Tailwind)
+# Prompt Print Demand — Custom Print E-Commerce 👕🎨
 
-This project is a Print-on-Demand E-Commerce website concept built with **Vanilla HTML, TypeScript, and Tailwind CSS**.
+An advanced E-commerce platform concept for custom print-on-demand products. This project demonstrates a transition from a full-stack MERN architecture to a highly optimized, modular system built with **TypeScript** and **Tailwind CSS**.
 
-## Project Structure
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-- `index.html`: Main entry point.
-- `src/`: Source files (TypeScript, CSS).
-- `dist/`: Compiled output (CSS, JS).
-- `_legacy/`: Previous project files (React/MERN).
+## 🌟 Concept & Goals
 
-## Getting Started
+The goal of this project is to provide a seamless user experience for customers to design and order custom-printed merchandise. It focuses on:
 
-1.  **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+- **Modular Architecture**: Easy to scale and integrate with different backend services.
+- **High Performance**: Minimal load times using lightweight technologies.
+- **Responsive Design**: Mobile-first approach for shopping on the go.
 
-2.  **Run Development Server**:
-    ```bash
-    npm run dev
-    ```
-    This will start a live server and watch for Tailwind CSS changes.
+## ✨ Features
 
-3.  **Build for Production**:
-    ```bash
-    npm run build
-    ```
+- **Dynamic Product Catalog**: Browse various categories of printable items.
+- **Responsive Design**: Pixel-perfect layout across mobile, tablet, and desktop.
+- **Interactive UI**: Clean and intuitive interfaces for product selection and customization.
+- **Developer-Friendly**: Structured source code with TypeScript for type safety and maintainability.
 
-## Technologies
-- HTML5
-- TypeScript
-- Tailwind CSS
+## 🏗️ Project Evolution
+
+Originally developed as a **MERN Stack** application, the project is currently being refactored into a more robust TypeScript/HTML/Tailwind implementation to ensure maximum flexibility and speed. Legacy React/Node.js files are maintained in the `_legacy` directory for reference.
+
+## 🛠️ Tech Stack
+
+- **Frontend Core**: Vanilla HTML5, TypeScript
+- **Styling**: Tailwind CSS (JIT mode)
+- **Deployment**: Optimized for Vercel/Static hosting
+- **Build Tool**: Vite (used for bundling and dev server)
+
+## 🚀 Getting Started
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/chatcha1234/prompt-print-demand-mern.git
+   cd prompt-print-demand-mern
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Repository Structure
+
+```
+├── src/                # TypeScript source files
+├── dist/               # Compiled assets (CSS/JS)
+├── _legacy/            # Previous MERN stack implementation
+├── index.html          # Main application entry
+└── tailwind.config.js  # Custom design tokens
+```
+
+---
+
+_Created as an exploration of modern, lightweight E-commerce solutions._
